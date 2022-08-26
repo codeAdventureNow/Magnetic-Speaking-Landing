@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: local("/fonts/Brandon Grotesque Bold"),
+    local("/fonts/Brandon-Grotesque-Bold"),
+    url("/fonts/BrandonGrotesque-Bold.woff2") format("woff2"),
+    url("/fonts/BrandonGrotesque-Bold.woff") format("woff"),
+    url("/fonts/BrandonGrotesque-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("/fonts/Lato Semi Bold"), local("/fonts/Lato-Semi-Bold"),
+    url("/fonts/Lato-Semibold.woff2") format("woff2"),
+    url("/fonts/Lato-Semibold.woff") format("woff"),
+    url("fonts/Lato-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --orange: #f16122;
+  --white: #ffffff;
+  --grey: #6d6d6d;
+  --black: #3a3a3a;
+  --blue: #2f3d7c;
+  --offwhite: rgba(249, 249, 249, 0.8);
+}
+
+body {
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--gray);
+  background-color: var(--offwhite);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 2.25rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black);
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black);
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 2em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--orange);
+  line-height: 1.3;
+}
