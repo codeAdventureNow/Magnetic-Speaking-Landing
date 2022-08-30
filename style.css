@@ -90,39 +90,36 @@ h4 {
 #hero {
   background: url("/img/showcase.jpg") no-repeat center left/cover;
   height: 100vh;
-  /* width: 100vh; */
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* align-items: center;
-  min-height: 1000px; */
-  border: solid black;
+  min-height: 100px;
+  der: solid black;
 }
 
 #hero-container {
-  display: flex;
+  /* display: flex; */
   /* justify-content: top;
   align-items: left; */
 }
 
 #logo-container {
-  display: flex;
-  justify-content: left;
+  justify-content: right;
   align-items: center;
-  padding: 4rem;
+  padding: 4em;
   border: solid black;
+}
+
+#hero-text-container {
+  display: flex;
+  justify-content: flex-end;
+  border: solid green;
 }
 
 #hero-text {
   display: flex;
-  /* align-content: end; */
-  /* justify-content: flex-end; */
-  width: 300px;
-  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 200px;
   border: solid black;
-  margin: 50px;
-}
-
-#hero-headline {
-  margin-right: auto;
-  order: 2;
+  margin: 40px;
 }
