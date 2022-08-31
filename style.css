@@ -91,7 +91,6 @@ h4 {
   background: url("/img/stencil.hero-2.jpg") no-repeat center left/cover;
   height: 100vh;
   min-height: 100px;
-  der: solid black;
 }
 
 #hero-container {
@@ -103,7 +102,7 @@ h4 {
 #logo-container {
   justify-content: right;
   align-items: center;
-  padding: 4em;
+  padding: 2rem;
   /* border: solid black; */
 }
 
@@ -118,39 +117,52 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 450px;
-  height: 200px;
-  margin: 10px;
-  /* border: solid teal; */
+  width: 50%;
+  /* width: 450px;
+  height: 200px; */
+  margin: 70px;
+}
+
+#hero-heading {
+  margin-bottom: 20px;
+}
+
+#hero-subheading {
+  margin-bottom: 15px;
+  color: var(--black);
+}
+
+#hero-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: green;
+}
+
+#hero-form input {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 .button {
   background-color: var(--orange);
   color: var(--white);
   border: none;
-  padding: 15px 32px;
+  padding: 5px 5px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
   border-radius: 25px;
   text-transform: uppercase;
-  margin-top: 15px;
+  width: 100px;
 }
 
 .button:hover {
   filter: brightness(105%);
-}
-
-#hero-text h1 {
-  margin-bottom: 15px;
-}
-
-#email-input {
-  border-radius: 5px;
-  /* width: 80%; */
-  width: 350px;
-  height: 35px;
-  border: none;
-  padding: 10px;
 }
