@@ -88,7 +88,7 @@ h4 {
 }
 
 #hero {
-  background: url("/img/showcase.jpg") no-repeat center left/cover;
+  background: url("/img/stencil.hero-2.jpg") no-repeat center left/cover;
   height: 100vh;
   min-height: 100px;
   der: solid black;
@@ -144,4 +144,13 @@ h4 {
 
 #hero-text h1 {
   margin-bottom: 15px;
+}
+
+#email-input {
+  border-radius: 5px;
+  /* width: 80%; */
+  width: 350px;
+  height: 35px;
+  border: none;
+  padding: 10px;
 }
