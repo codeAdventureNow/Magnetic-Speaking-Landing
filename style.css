@@ -166,3 +166,27 @@ h4 {
 .button:hover {
   filter: brightness(105%);
 }
+
+#icon-cards-intro {
+  display: flex;
+  justify-content: flex-start;
+  margin: 90px 0;
+  max-width: 100%;
+}
+
+#icon-cards-heading {
+  flex-basis: 50%;
+}
+
+#icon-cards-subheading {
+  flex-basis: 50%;
+}
+
+#icon-cards-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon-image i {
+  height: 25px;
+}
