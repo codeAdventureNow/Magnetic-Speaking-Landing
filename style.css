@@ -257,6 +257,24 @@ h5 {
   background-position: center;
 }
 
+#img-2 {
+  display: flex;
+  background: url("/img/steps.jpg");
+  height: 300px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+#img-3 {
+  display: flex;
+  background: url("/img/podium-bw.jpg");
+  height: 300px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
 .img .bottom-overlay {
   height: 300px;
   width: 200px;
