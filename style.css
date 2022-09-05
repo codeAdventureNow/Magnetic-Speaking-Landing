@@ -281,30 +281,31 @@ h5 {
 .img .bottom-overlay {
   height: 400px;
   width: 265px;
-  opacity: 0.6;
+  opacity: 0.37;
   /* background: linear-gradient(to bottom, red, blue); */
-  background: pink;
+  background: red;
   position: absolute;
+  border-radius: 10px;
 }
 
 .bottom-text {
   z-index: 1;
   position: relative;
   display: flex-column;
-  color: var(--blue);
+  color: var(--white);
   margin: 20px 10px;
 }
 
 .bottom-text hr {
   height: 1px;
   width: 245px;
-  background-color: var(--blue);
+  background-color: var(--white);
   border: none;
 }
 
 .bottom-text h2 {
   margin-top: 20px;
-  color: var(--black);
+  color: var(--white);
   font-size: 32px;
   text-align: left;
 }
@@ -352,11 +353,11 @@ h5 {
 }
 
 .caoching .coaching-top-num {
-  color: var(--blue);
+  color: var(--black);
 }
 
 .coaching-top hr {
   height: 1px;
-  background-color: var(--blue);
+  background-color: var(--black);
   border: none;
 }
