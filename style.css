@@ -213,3 +213,95 @@ h5 {
 .icon-teaser {
   margin-top: 10px;
 }
+
+/* Hover Cards */
+#hover-cards {
+  display: flex;
+  margin: 0 100px;
+  margin-bottom: 100px;
+  max-width: 100%;
+}
+
+#text-container {
+  flex-basis: 40%;
+  margin-right: 40px;
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+  flex-basis: 60%;
+}
+
+#text-container h1 {
+  color: var(--blue);
+  margin-bottom: 20px;
+}
+
+.card-box {
+  position: relative;
+  width: 200px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}
+
+#img-1 {
+  display: flex;
+  background: url("/img/arms-open-bw.jpg");
+  height: 300px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.img .bottom-overlay {
+  height: 300px;
+  width: 200px;
+  opacity: 0.6;
+  /* background: linear-gradient(to bottom, red, blue); */
+  background: pink;
+  position: absolute;
+}
+
+.bottom-text {
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  display: flex-column;
+}
+
+.image-top-overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 300px;
+  width: 200px;
+  background: green;
+  color: #ffff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.image-top-overlay:hover {
+  opacity: 1;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.image-top-headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image-top-description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
