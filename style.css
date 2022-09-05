@@ -218,20 +218,24 @@ h5 {
 /* Hover Cards */
 #hover-cards {
   display: flex;
-  margin: 0 100px;
+  margin: 0px 100px;
   margin-bottom: 100px;
   max-width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 
 #text-container {
   flex-basis: 40%;
   margin-right: 40px;
+  margin-bottom: 100px;
 }
 
 .card-container {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   flex-basis: 60%;
+  margin-bottom: 100px;
 }
 
 #text-container h1 {
@@ -371,11 +375,10 @@ h5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* min-width: 1000px; */
+  min-width: 1000px;
   min-height: 100px;
   color: var(--white);
   background: var(--black);
-  width: 100vw;
 }
 
 a {
