@@ -135,12 +135,17 @@ h5 {
 }
 
 #hero-heading {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 #hero-subheading {
-  margin-bottom: 15px;
-  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  color: var(--white);
+  font-size: 1.25em;
 }
 
 #hero-form {
@@ -153,6 +158,7 @@ h5 {
 
 #hero-form input {
   width: 400px;
+
   height: 30px;
   border-radius: 5px;
   border: none;
@@ -315,7 +321,7 @@ h5 {
 .bottom-text h2 {
   margin-top: 20px;
   color: var(--white);
-  font-size: 32px;
+  font-size: 1.34em;
   text-align: left;
 }
 
@@ -344,7 +350,7 @@ h5 {
 }
 
 .image-top-headline {
-  font-size: 2em;
+  font-size: 1.34em;
   font-weight: bold;
   margin: 0 10px;
   text-align: left;
