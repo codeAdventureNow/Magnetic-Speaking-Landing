@@ -29,6 +29,10 @@
   height: 60px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --orange: #f16122;
   --white: #ffffff;
@@ -396,6 +400,28 @@ h5 {
   height: 1px;
   background-color: var(--black);
   border: none;
+}
+
+#last-card-no-hover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 400px;
+  width: 265px;
+  background: var(--white);
+  color: var(--black);
+  /* font-family: sans-serif; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#last-card-no-hover h4 {
+  margin-bottom: 15px;
 }
 
 #footer-container {
