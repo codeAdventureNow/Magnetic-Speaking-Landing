@@ -184,14 +184,14 @@ h5 {
   filter: brightness(105%);
 }
 
-#icon-cards {
+#icon-cards-section {
   margin: 0 100px;
   margin-bottom: 100px;
 }
 
 #icon-cards-intro {
   display: flex;
-  justify-content: flex-start;
+  justify-content: start;
   margin: 90px 0;
   max-width: 100%;
 }
@@ -200,13 +200,30 @@ h5 {
   flex-basis: 50%;
 }
 
+#icon-cards-heading h2 {
+  text-align: left;
+}
+
 #icon-cards-subheading {
   flex-basis: 50%;
 }
 
+#icon-cards-subheading h3 {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 100px;
+}
+
 #icon-cards-container {
   display: flex;
+  justify-content: start;
+  margin: 90px 0;
+  max-width: 100%;
   gap: 1rem;
+}
+
+.icon-cards {
+  max-width: 25%;
 }
 
 .icon-image i {
