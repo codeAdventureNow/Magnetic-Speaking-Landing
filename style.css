@@ -210,8 +210,9 @@ h5 {
 
 #icon-cards-subheading h3 {
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 100px;
+  text-transform: none;
 }
 
 #icon-cards-container {
@@ -219,7 +220,7 @@ h5 {
   justify-content: start;
   margin: 90px 0;
   max-width: 100%;
-  gap: 1rem;
+  gap: 1.1rem;
 }
 
 .icon-cards {
