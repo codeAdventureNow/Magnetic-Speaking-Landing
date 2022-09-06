@@ -442,3 +442,7 @@ a {
 ul {
   list-style: none;
 }
+
+.links a:hover {
+  color: var(--orange);
+}
