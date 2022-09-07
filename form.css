@@ -4,6 +4,26 @@
   font-family: "Brandon Grotesque";
   margin: 0;
 }
+
+/* Controlling the form backround color and I believe the form container this is my write up for styling*/
+#_form_1222_ {
+  position: relative;
+  text-align: left;
+  margin: 15px auto 0;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *zoom: 1;
+  /* background: #fff !important; */
+  border: 0px solid #b0b0b0 !important;
+  max-width: 500px;
+  -moz-border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+  color: #000 !important;
+}
+
 #_form_1222_ * {
   outline: 0;
 }
@@ -44,6 +64,8 @@
 #_form_1222_._form-right {
   right: 0;
 }
+
+/* Affected the border radius of the input field, not sure why width is not moving wider when added as property */
 #_form_1222_ input[type="text"],
 #_form_1222_ input[type="tel"],
 #_form_1222_ input[type="date"],
@@ -51,7 +73,7 @@
   padding: 6px;
   height: auto;
   border: #979797 1px solid;
-  border-radius: 4px;
+  border-radius: 5px;
   color: #000 !important;
   font-size: 14px;
   -webkit-box-sizing: border-box;
@@ -61,6 +83,8 @@
 #_form_1222_ textarea {
   resize: none;
 }
+
+/*  Is controlling button width, however it is also making the input width change. */
 #_form_1222_ ._submit {
   -webkit-appearance: none;
   cursor: pointer;
@@ -70,11 +94,11 @@
   border: 0 !important;
   -moz-border-radius: 4px !important;
   -webkit-border-radius: 4px !important;
-  border-radius: 4px !important;
+  border-radius: 10px !important;
   color: #fff !important;
   padding: 10px !important;
   text-transform: uppercase;
-  width: 300px;
+  width: 70%;
 }
 
 #_form_1222_ ._close-icon {
@@ -142,9 +166,15 @@
 #_form_1222_._dark ._form-branding ._logo {
   background-image: url("https://d226aj4ao1t61q.cloudfront.net/jftq2c8s_aclogo_dk.png");
 }
+
+/*   Container for input and button
+
+was able to add margin to input here, this could be an area of focus for targeting the width */
 #_form_1222_ ._form_element {
+  display: flex;
+  justify-content: center;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 0;
   max-width: 100%;
 }
@@ -172,9 +202,13 @@
   box-sizing: border-box;
   font-family: inherit;
 }
+
+/*  Controlling the input width */
 #_form_1222_ ._field-wrapper {
+  width: 500px;
   position: relative;
 }
+
 #_form_1222_ ._inline-style {
   float: left;
 }
@@ -391,24 +425,6 @@
   }
 }
 
-/* Controlling the form backround color and I believe the form container*/
-#_form_1222_ {
-  position: relative;
-  text-align: left;
-  margin: 15px auto 0;
-  padding: 10px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  *zoom: 1;
-  /* background: #fff !important; */
-  border: 0px solid #b0b0b0 !important;
-  max-width: 500px;
-  -moz-border-radius: 0px !important;
-  -webkit-border-radius: 0px !important;
-  border-radius: 0px !important;
-  color: #000 !important;
-}
 #_form_1222_._inline-form,
 #_form_1222_._inline-form ._form-content,
 #_form_1222_._inline-form input,
