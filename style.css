@@ -184,6 +184,10 @@ h5 {
   width: 100px;
 }
 
+._form-label {
+  color: var(--black);
+}
+
 .button:hover {
   filter: brightness(105%);
 }
