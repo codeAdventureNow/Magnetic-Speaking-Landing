@@ -6,9 +6,11 @@
 }
 
 /* Controlling the form backround color and I believe the form container this is my write up for styling*/
+/* changed text-align to center and finally the input field and button are centered */
+
 #_form_1222_ {
   position: relative;
-  text-align: left;
+  text-align: center;
   margin: 15px auto 0;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -509,4 +511,11 @@ was able to add margin to input here, this could be an area of focus for targeti
 }
 #_form_1222_ .phone-input-error {
   border: 1px solid #e40e49 !important;
+}
+
+._form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
