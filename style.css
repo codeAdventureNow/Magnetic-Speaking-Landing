@@ -47,7 +47,7 @@ body {
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Lexend Deca", sans-serif;
   color: var(--gray);
-  background-color: var(--offwhite);
+  background-color: var(--white);
   font-size: 1rem;
   line-height: 1.7;
 }
@@ -234,6 +234,10 @@ h5 {
   max-width: 25%;
 }
 
+.icon-image {
+  background: white;
+}
+
 .icon-image i {
   margin-top: 45px;
 }
@@ -242,10 +246,22 @@ h5 {
   margin-top: 35px;
 }
 
+.icon-content h4 {
+  color: var(--black);
+}
+
 .icon-teaser {
   margin-top: 10px;
   margin-left: 3px;
   margin-right: 3px;
+}
+
+#icon-1,
+#icon-2,
+#icon-3,
+#icon-4 {
+  width: 100px;
+  margin-top: 45px;
 }
 
 /* Hover Cards */
@@ -411,7 +427,7 @@ h5 {
   left: 0px;
   height: 400px;
   width: 265px;
-  background: var(--white);
+  background: var(--offwhite);
   color: var(--black);
   /* font-family: sans-serif; */
   display: flex;
