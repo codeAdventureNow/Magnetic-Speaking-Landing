@@ -67,7 +67,7 @@ h2 {
   font-size: 2.25rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   color: var(--black);
   line-height: 1.2;
 }
@@ -86,7 +86,7 @@ h4 {
   font-family: "Brandon Grotesque", sans-serif;
   font-size: 2em;
   text-transform: capitalize;
-  text-align: center;
+  text-align: left;
   color: var(--orange);
   line-height: 1.3;
 }
@@ -210,7 +210,7 @@ h5 {
   flex-basis: 50%;
 }
 
-#icon-cards-heading h2 {
+#icon-cards-heading h4 {
   text-align: left;
 }
 
@@ -444,6 +444,7 @@ h5 {
 
 #last-card-no-hover h4 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 #footer-container {
