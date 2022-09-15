@@ -374,8 +374,8 @@ h5 {
 
 .image-top-overlay {
   position: absolute;
-  top: 2px;
-  left: 2px;
+  top: 0px;
+  left: 0px;
   height: 400px;
   width: 265px;
   background: var(--white);
@@ -468,4 +468,28 @@ ul {
 
 .links a:hover {
   color: var(--orange);
+}
+
+@media (max-width: 1100px) {
+  .icon-content h4 {
+    font-size: 1.6rem;
+  }
+
+  .icon-teaser {
+    margin: 10px 3px 0px;
+    line-height: 1.5;
+  }
+
+  #img-1,
+  #img-2,
+  #img-3 {
+    display: none;
+  }
+
+  .image-top-overlay {
+    display: block;
+    opacity: 2;
+  }
+
+  /* Goes into swiper */
 }
