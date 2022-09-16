@@ -268,6 +268,20 @@ h5 {
 }
 
 /* Hover Cards */
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  background-color: #efefef;
+  padding: 40px 0;
+}
+
+.slide-content {
+  margin: 0 40px;
+  /* background-color: red; */
+  /* overflow: hidden;
+  border-radius: 25px; */
+}
+
 #hover-cards {
   display: flex;
   margin: 0px 100px;
@@ -288,6 +302,8 @@ h5 {
   gap: 3rem;
   flex-basis: 60%;
   margin-bottom: 100px;
+  /* background-color: blue; */
+  padding: 40px 5px;
 }
 
 #text-container h1 {
@@ -301,6 +317,7 @@ h5 {
 
 .card-box {
   position: relative;
+  /* Turned off width for swiper */
   width: 265px;
 }
 
@@ -471,6 +488,15 @@ ul {
 }
 
 @media (max-width: 1100px) {
+  .card-container {
+    display: flex;
+    gap: 3rem;
+    flex-basis: 60%;
+    margin-bottom: 80px;
+    /* background-color: blue; */
+    padding: 20px 10px;
+  }
+
   .icon-content h4 {
     font-size: 1.6rem;
   }
