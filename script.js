@@ -552,8 +552,8 @@ window._load_script = function (url, callback) {
 
 // Swiper
 var swiper = new Swiper(".slide-content", {
-  slidesPerView: 3,
-  spaceBetween: 25,
+  slidesPerView: 1,
+  spaceBetween: 20,
   slidesPerGroup: 1,
   loop: true,
   centerSlide: "true",
