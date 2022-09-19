@@ -549,3 +549,9 @@ ul {
     opacity: 2;
   }
 }
+
+@media (max-width: 800px) {
+  .icon-cards {
+    max-width: 100%;
+  }
+}
