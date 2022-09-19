@@ -290,6 +290,8 @@ h5 {
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
   /* flex-basis: 60%; */
   margin-bottom: 15px;
@@ -306,6 +308,7 @@ h5 {
 
 .card-box {
   position: relative;
+
   width: 265px;
 }
 
