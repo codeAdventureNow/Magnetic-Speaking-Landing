@@ -496,12 +496,18 @@ ul {
     margin: 30px;
   }
 
+  #hero-heading {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
   #hero-heading h1 {
     font-size: 36px;
-    margin-top: 355px;
+    margin-top: 390px;
   }
 
   #hero-subheading {
+    text-align: center;
     font-size: 16px;
     line-height: 1.6;
   }
@@ -597,7 +603,7 @@ ul {
 
   #hero-heading h1 {
     font-size: 36px;
-    margin-top: 350px;
+    margin-top: 400px;
   }
 
   #hero-subheading {
