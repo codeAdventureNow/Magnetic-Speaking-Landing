@@ -455,7 +455,7 @@ h5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-width: 1000px;
+  /* min-width: 1000px; */
   min-height: 100px;
   color: var(--white);
   background: var(--black);
