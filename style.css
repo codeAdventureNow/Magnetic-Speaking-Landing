@@ -276,9 +276,8 @@ h5 {
   margin: 0px 100px;
   margin-bottom: 10px;
   max-width: 100%;
-  height: 100vh;
-  /* overflow-y: hidden;
-  overflow-x: scroll; */
+  /* Stopped the overflow of cards going past footer */
+  /* height: 100vh; */
 }
 
 #text-container {
@@ -379,9 +378,9 @@ h5 {
 } */
 
 .image-top-overlay {
-  position: absolute;
+  /* position: absolute;
   top: 0px;
-  left: 0px;
+  left: 0px; */
   height: 400px;
   width: 265px;
   background: var(--white);
@@ -430,9 +429,9 @@ h5 {
 }
 
 #last-card-no-hover {
-  position: absolute;
+  /* position: absolute;
   top: 0px;
-  left: 0px;
+  left: 0px; */
   height: 400px;
   width: 265px;
   background: var(--offwhite);
@@ -554,4 +553,80 @@ ul {
   .icon-cards {
     max-width: 100%;
   }
-}
+
+  #logo {
+    height: 40px;
+  }
+
+  #hero-container {
+    /* display: flex; */
+    /* justify-content: top;
+    align-items: left; */
+  }
+
+  #logo-container {
+    justify-content: right;
+    align-items: center;
+    padding: 2rem;
+    /* border: solid black; */
+  }
+
+  #hero-text-container {
+    display: flex;
+    justify-content: center;
+    /* border: solid green; */
+  }
+
+  #hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    /* width: 450px;
+    height: 200px; */
+    /* margin: 70px; */
+  }
+
+  #hero-heading {
+    margin-bottom: 10px;
+  }
+
+  #hero-heading h1 {
+    font-size: 36px;
+    margin-top: 140px;
+  }
+
+  #hero-subheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: var(--white);
+    font-size: 16px;
+    width: 100%;
+  }
+
+  #hero-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: green;
+  }
+/* 
+  .button {
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    width: 50px;
+  }
+} */
