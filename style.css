@@ -498,7 +498,12 @@ ul {
 
   #hero-heading h1 {
     font-size: 36px;
-    margin-top: 250px;
+    margin-top: 355px;
+  }
+
+  #hero-subheading {
+    font-size: 16px;
+    line-height: 1.6;
   }
 
   #icon-cards-intro {
@@ -592,7 +597,7 @@ ul {
 
   #hero-heading h1 {
     font-size: 36px;
-    margin-top: 270px;
+    margin-top: 350px;
   }
 
   #hero-subheading {
