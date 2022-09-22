@@ -103,9 +103,10 @@ h5 {
 #hero {
   background: url("/img/stencil.hero-2.jpg") no-repeat center left/cover;
   height: 100vh;
-  width: 100vw;
+  /* width: 00vw; */
   min-height: 100px;
   background-position: 25% 35%;
+  overflow: hidden;
 }
 
 #hero-container {
@@ -596,7 +597,8 @@ ul {
   }
 
   #logo {
-    height: 33px;
+    height: 45px;
+    margin: 15px;
   }
 
   #hero-container {
@@ -732,6 +734,11 @@ ul {
 }
 
 @media (max-width: 480px) {
+  #logo {
+    height: 35px;
+    margin: 7px;
+  }
+
   #hero-heading h1 {
     font-size: 28px;
     margin-top: 275px;
@@ -742,7 +749,7 @@ ul {
 @media (max-width: 400px) {
   #hero-heading h1 {
     font-size: 28px;
-    margin-top: 220px;
+    margin-top: 140px;
     text-align: center;
   }
 }
