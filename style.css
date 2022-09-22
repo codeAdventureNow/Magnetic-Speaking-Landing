@@ -477,8 +477,8 @@ ul {
 @media (max-width: 1020px) {
   #hero {
     background: url("/img/hero-mobile.jpg") no-repeat center left/cover;
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     min-height: 100px;
     background-position: 5% 3%;
   }
@@ -504,7 +504,7 @@ ul {
 
   #hero-heading h1 {
     font-size: 32px;
-    margin-top: 110px;
+    margin-top: 260px;
     text-align: left;
   }
 
@@ -637,7 +637,7 @@ ul {
 
   #hero-heading h1 {
     font-size: 28px;
-    margin-top: 180px;
+    margin-top: 450px;
     text-align: center;
   }
 
@@ -726,7 +726,23 @@ ul {
     min-height: 100px;
     color: var(--white);
     background: var(--black);
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero-heading h1 {
+    font-size: 28px;
+    margin-top: 275px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  #hero-heading h1 {
+    font-size: 28px;
+    margin-top: 220px;
+    text-align: center;
   }
 }
