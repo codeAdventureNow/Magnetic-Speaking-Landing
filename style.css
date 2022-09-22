@@ -107,6 +107,7 @@ h5 {
   min-height: 100px;
   background-position: 25% 35%;
   overflow: hidden;
+  position: relative;
 }
 
 #hero-container {
@@ -127,6 +128,9 @@ h5 {
   display: flex;
   justify-content: flex-end;
   /* border: solid green; */
+  position: absolute;
+  margin-left: 80px;
+  bottom: 0;
 }
 
 #hero-text {
@@ -410,6 +414,17 @@ ul {
   color: var(--orange);
 }
 
+@media (max-width: 1280px) {
+  #hero-text-container {
+    display: flex;
+    justify-content: flex-end;
+    /* border: solid green; */
+    position: absolute;
+    margin-left: 10px;
+    bottom: 0;
+  }
+}
+
 @media (max-width: 1020px) {
   #hero {
     background: url("/img/hero-mobile.jpg") no-repeat center left/cover;
@@ -423,7 +438,8 @@ ul {
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    /* border: solid green; */
+    margin-left: 0px;
+    position: relative;
   }
 
   #hero-text {
