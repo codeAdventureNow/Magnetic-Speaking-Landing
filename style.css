@@ -570,8 +570,13 @@ ul {
 }
 
 @media (max-width: 800px) {
+  #logo-container {
+    padding: 1rem;
+    /* border: solid black; */
+  }
+
   #logo {
-    height: 40px;
+    height: 33px;
   }
 
   #hero-container {
@@ -582,8 +587,8 @@ ul {
 
   #logo-container {
     justify-content: right;
-    align-items: center;
-    padding: 2rem;
+    align-items: left;
+    padding: 1rem;
     /* border: solid black; */
   }
 
@@ -610,8 +615,8 @@ ul {
   }
 
   #hero-heading h1 {
-    font-size: 36px;
-    margin-top: 405px;
+    font-size: 28px;
+    margin-top: 200px;
   }
 
   #hero-subheading {
@@ -646,7 +651,7 @@ ul {
     color: #fff !important;
     padding: 10px !important;
     text-transform: uppercase;
-    width: 50%;
+    width: 40%;
   }
 
   #_form_1222_ ._form_element {
@@ -655,6 +660,51 @@ ul {
     position: relative;
     margin-bottom: 15px;
     font-size: 0;
-    max-width: 75%;
+    max-width: 55%;
+  }
+
+  #icon-cards-section {
+    margin: 0 30px;
+    margin-bottom: 100px;
+  }
+
+  #icon-cards-heading h2 {
+    font-size: 28px;
+    text-align: left;
+    margin: 0px;
+  }
+
+  #hover-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0px 0px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    /* Stopped the overflow of cards going past footer */
+    /* height: 100vh; */
+  }
+
+  #text-container {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #text-container h1 {
+    font-size: 24px;
+  }
+
+  #footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    min-height: 100px;
+    color: var(--white);
+    background: var(--black);
+    font-size: 10px;
+    line-height: 1.5;
   }
 }
