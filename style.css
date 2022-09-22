@@ -480,7 +480,7 @@ ul {
     height: 100vh;
     width: 100vw;
     min-height: 100px;
-    background-position: 5% 4%;
+    background-position: 5% 3%;
   }
 
   #hero-text-container {
@@ -493,17 +493,19 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 40px;
+    margin-right: 420px;
   }
 
   #hero-heading {
-    margin-bottom: 10px;
+    margin-bottom: 170px;
     text-align: center;
   }
 
   #hero-heading h1 {
-    font-size: 36px;
-    margin-top: 405px;
+    font-size: 32px;
+    margin-top: 110px;
+    text-align: left;
   }
 
   #hero-subheading {
@@ -562,14 +564,32 @@ ul {
   }
 }
 
-@media (max-width: 850px) {
-  #hero-heading h1 {
-    font-size: 36px;
-    margin-top: 385px;
-  }
+#_form_1222_ ._submit {
+  -webkit-appearance: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  background: var(--orange);
+  border: 0 !important;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  padding: 10px !important;
+  text-transform: uppercase;
+  width: 30%;
 }
 
-@media (max-width: 800px) {
+#_form_1222_ ._form_element {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 0;
+  max-width: 55%;
+}
+
+@media (max-width: 840px) {
   #logo-container {
     padding: 1rem;
     /* border: solid black; */
@@ -605,18 +625,20 @@ ul {
     justify-content: center;
     align-items: center;
     width: 65%;
-    /* width: 450px;
-    height: 200px; */
-    /* margin: 70px; */
+    margin: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   #hero-heading {
     margin-bottom: 10px;
+    text-align: center;
   }
 
   #hero-heading h1 {
     font-size: 28px;
     margin-top: 180px;
+    text-align: center;
   }
 
   #hero-subheading {
