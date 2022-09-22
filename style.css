@@ -120,6 +120,7 @@ h5 {
   align-items: center;
   padding: 2rem;
   /* border: solid black; */
+  padding-bottom: 0rem;
 }
 
 #hero-text-container {
@@ -136,7 +137,8 @@ h5 {
   width: 50%;
   /* width: 450px;
   height: 200px; */
-  margin: 70px;
+  margin: 50px;
+  margin-top: 10px;
 }
 
 #hero-heading {
@@ -311,73 +313,6 @@ h5 {
   width: 265px;
 }
 
-/* .img {
-  display: block;
-  width: 100%;
-}
-
-#img-1 {
-  display: flex;
-  background: url("/img/steps.jpg");
-  height: 400px;
-  width: 265px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-}
-
-#img-2 {
-  display: flex;
-  background: url("/img/charts-bw.jpg");
-  height: 400px;
-  width: 265px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-}
-
-#img-3 {
-  display: flex;
-  background: url("/img/arms-open-bw.jpg");
-  height: 400px;
-  width: 265px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  background-position: left 30% bottom 100%;
-}
-
-.img .bottom-overlay {
-  height: 400px;
-  width: 265px;
-  opacity: 0.37;
-  background: red;
-  position: absolute;
-  border-radius: 10px;
-}
-
-.bottom-text {
-  z-index: 1;
-  position: relative;
-  display: flex-column;
-  color: var(--white);
-  margin: 20px 10px;
-}
-
-.bottom-text hr {
-  height: 1px;
-  width: 245px;
-  background-color: var(--white);
-  border: none;
-}
-
-.bottom-text h2 {
-  margin-top: 20px;
-  color: var(--white);
-  font-size: 1.34em;
-  text-align: left;
-} */
-
 .image-top-overlay {
   /* position: absolute;
   top: 0px;
@@ -487,6 +422,8 @@ ul {
   #hero-text-container {
     display: flex;
     justify-content: center;
+    margin-top: 0px;
+    /* border: solid green; */
   }
 
   #hero-text {
@@ -494,25 +431,41 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 65%;
     margin: 40px;
-    margin-right: 420px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   #hero-heading {
-    margin-bottom: 170px;
+    margin-bottom: 10px;
     text-align: center;
   }
 
   #hero-heading h1 {
-    font-size: 32px;
-    margin-top: 260px;
-    text-align: left;
+    font-size: 28px;
+    margin-top: 550px;
+    text-align: center;
   }
 
   #hero-subheading {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: var(--white);
     font-size: 16px;
-    line-height: 1.6;
+    width: 100%;
+    text-align: center;
+  }
+
+  #hero-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: green;
   }
 
   #icon-cards-intro {
@@ -746,10 +699,10 @@ ul {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 389px) {
   #hero-heading h1 {
     font-size: 28px;
-    margin-top: 140px;
+    margin-top: 100px;
     text-align: center;
   }
 }
