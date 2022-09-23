@@ -654,7 +654,7 @@ ul {
     position: relative;
     margin-bottom: 15px;
     font-size: 0;
-    max-width: 55%;
+    max-width: 50%;
   }
 
   #icon-cards-section {
@@ -702,6 +702,13 @@ ul {
     line-height: 1.5;
   }
 }
+@media (max-width: 550px) {
+  #hero-heading h1 {
+    font-size: 28px;
+    margin-top: 275px;
+    text-align: center;
+  }
+}
 
 @media (max-width: 480px) {
   #logo {
@@ -725,9 +732,51 @@ ul {
 }
 
 @media (max-width: 389px) {
+  #logo {
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+  }
+
   #hero-heading h1 {
-    font-size: 28px;
+    font-size: 24px;
+    margin-top: 110px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  #hero-heading h1 {
+    font-size: 22px;
     margin-top: 100px;
     text-align: center;
+  }
+
+  #icon-cards-heading h2 {
+    font-size: 22px;
+    text-align: left;
+    margin: 0px;
+  }
+
+  #text-container {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #text-contaier h1 {
+    font-size: 20px;
+  }
+
+  #footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    min-height: 100px;
+    color: var(--white);
+    background: var(--black);
+    font-size: 10px;
+    line-height: 1.5;
   }
 }
