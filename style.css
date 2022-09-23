@@ -576,12 +576,6 @@ ul {
     margin: 15px;
   }
 
-  #hero-container {
-    /* display: flex; */
-    /* justify-content: top;
-    align-items: left; */
-  }
-
   #logo-container {
     justify-content: right;
     align-items: left;
@@ -592,10 +586,9 @@ ul {
   #hero-text-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 0px;
-    /* border: solid green; */
-    position: relative;
+    margin-left: 0px;
+    position: absolute;
   }
 
   #hero-text {
@@ -714,6 +707,14 @@ ul {
   #logo {
     height: 35px;
     margin: 7px;
+  }
+
+  #hero-text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
   }
 
   #hero-heading h1 {
