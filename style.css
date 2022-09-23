@@ -415,12 +415,18 @@ ul {
 }
 
 @media (max-width: 1280px) {
+  #hero {
+    background: url("/img/stencil.hero-2.jpg") no-repeat center left/cover;
+
+    position: relative;
+  }
+
   #hero-text-container {
     display: flex;
     justify-content: flex-end;
     /* border: solid green; */
     position: absolute;
-    margin-left: 10px;
+    margin-left: 0px;
     bottom: 0;
   }
 }
@@ -439,7 +445,7 @@ ul {
     justify-content: center;
     margin-top: 0px;
     margin-left: 0px;
-    position: relative;
+    position: absolute;
   }
 
   #hero-text {
@@ -586,8 +592,10 @@ ul {
   #hero-text-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 0px;
     /* border: solid green; */
+    position: relative;
   }
 
   #hero-text {
